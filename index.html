@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- <script src="script.js" defer></script>-->
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/3ca77e62ab.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>Rock Paper & Scissors</header>
-    <div class=""></div>
+    <main>
+      <div class="result">Player V/S Computer</div>
+      <div class="scorecard">
+        <div class="player"><i class="fas fa-user"></i></div>
+        <div class="playerScore">0</div>
+        <div class="compScore">0</div>
+        <div class="comp"><i class="fas fa-robot"></i></div>
+      </div>
+      <div class="arena">
+        <div class="playerAction"></div>
+        <div class="compAction"></div>
+      </div>
+      <div class="options">Select Rock,Paper or Scissors</div>
+      <div class="button-container">
+        <button><i class="fas fa-hand-rock" data-name="rock"></i></button>
+        <button><i class="fas fa-hand-paper" data-name="paper"></i></button>
+        <button>
+          <i class="fas fa-hand-scissors" data-name="scissors"></i>
+        </button>
+      </div>
+    </main>
   </body>
 </html>
